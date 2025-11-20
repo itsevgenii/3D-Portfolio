@@ -1,5 +1,8 @@
 import React from "react";
 import { words } from "../constants/index.js";
+import Button from "../components/Button.jsx";
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
+
 const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
@@ -8,6 +11,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-layout">
+        {/*left hero context*/}
         <header className="flex flex-col justify-centre md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
@@ -34,8 +38,23 @@ const Hero = () => {
               <h1>Into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              Hi, I'm Katie a developer based in the Midlands, UK with a passion
+              for code
+            </p>
+            <Button
+              className="md:w-80 md:h-16 w-60 h-12"
+              id="button"
+              text="See my Work"
+            />
           </div>
         </header>
+        {/*right 3d model*/}
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   );
