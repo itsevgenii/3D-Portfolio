@@ -11,7 +11,7 @@ const AnimatedCounter = () => {
             className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center items-center"
           >
             <div className="counter-number text-white text-5xl font-bold mb-2">
-              <CountUp start={0} end={item.value} duration={2} /> {item.suffix}
+              {item.value} {item.suffix}
             </div>
             <div className="text-white-50 text-lg">{item.label}</div>
           </div>

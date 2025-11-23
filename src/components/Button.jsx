@@ -3,11 +3,10 @@ import React from "react";
 const Button = ({ text, className, id }) => {
   return (
     <a
-      className={`${className ?? ""}`}
-      cta-wrapper
+      className={`${className ?? ""} cta-wrapper`}
       onClick={(e) => {
         e.preventDefault();
-        const target = document.getElementById("conter");
+        const target = document.getElementById("counter");
         if (target && id) {
           const offset = window.innerHeight * 0.15;
 
