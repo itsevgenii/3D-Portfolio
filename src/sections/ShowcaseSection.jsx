@@ -29,6 +29,7 @@ const ShowcaseSection = () => {
                   alt="library mangegment platform"
                 />
               </div>
+              <h2>Library Management Platform</h2>
             </div>
           </div>
         </div>
