@@ -1,7 +1,7 @@
 import React from "react";
 import { navLinks } from "../constants/index.js";
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <header className="navbar">
       <div className="inner">
@@ -10,14 +10,16 @@ export const NavBar = () => {
         </a>
         <nav className="desktop">
           <ul>
-            {navLinks.map(({ link, name }) => {
+            {navLinks.map(({ link, name }) => (
+              //   return (
               <li key={name} className="group">
                 <a href={link}>
                   <span>{name}</span>
                   <span className="underline"></span>
                 </a>
-              </li>;
-            })}
+              </li>
+              //   );
+            ))}
           </ul>
         </nav>
 
@@ -30,3 +32,5 @@ export const NavBar = () => {
     </header>
   );
 };
+
+export default NavBar;
