@@ -47,7 +47,7 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
           {/*LEFT*/}
-          <div className="first-project-wrapper" redf={project1Ref}>
+          <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
               <img src="/images/project1.png" alt="2Gather" />
             </div>
