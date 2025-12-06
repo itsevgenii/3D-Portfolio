@@ -11,10 +11,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
 ];
 
 const words = [
@@ -29,10 +25,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 13, suffix: "+", label: "Weeks of Intensive Training" },
+  { value: 3, suffix: "+", label: "Projects Built During Training" },
+  { value: 100, suffix: "%", label: "Commitment to Learning" },
 ];
 
 const logoIconsList = [
@@ -148,41 +144,28 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Katie collaborated through pair programming, stand-ups, and code reviews—sharpening her ability to write clean code and communicate effectively as part of a team.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Software Developer",
+    date: "January 2025 - April 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built dynamic full-stack web applications using JavaScript, React, Node.js, Express, and PostgreSQL",
+      "Followed a strict test-driven development (TDD) approach with Jest, writing robust, well-tested code across the stack.",
+      "Gained experience in designing scalable databases, building intuitive UIs, and handling API requests",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Katie is highly skilled in manual testing, quickly identifying bugs and ensuring product quality. She uses tools like Jira and Trello effectively and collaborates well with developers and product teams. Her thorough regression testing helps maintain system stability after updates.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Junior QA Analyst",
+    date: "June 2025 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Gained proficiency in manual testing techniques to identify bugs and ensure product quality.",
+      "Utilized bug-tracking tools such as Jira and Trello to log issues, track progress, and organize testing efficiently.",
+      "Collaborated closely with developers and product teams to ensure comprehensive test coverage and clarify requirements.",
     ],
   },
 ];
@@ -249,19 +232,8 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
     name: "linkedin",
+    url: "https://www.linkedin.com/in/katie-hardy-375315300/",
     imgPath: "/images/linkedin.png",
   },
 ];

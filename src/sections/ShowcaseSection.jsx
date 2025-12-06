@@ -53,30 +53,32 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                A Reddit-style full-stack news app where users can browse posts,
+                comment, delete comments, and like articles.
               </h2>
               <p className="text-white-50 md:text-xl">
-                Insert description here
+                Full-stack news platform built with Express.js, PostgreSQL, and
+                React, featuring user interactions like commenting, deleting
+                comments, and liking posts.
               </p>
             </div>
           </div>
           {/*RIGHT*/}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
+              <div className="image-wrapper bg-[#E7A84A]">
                 <img
                   src="/images/project2.png"
                   alt="library mangegment platform"
                 />
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>2Gather - A Friendly Meet-up Platform</h2>
             </div>
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
+              <div className="image-wrapper bg-[#c8e1ff]">
                 <img src="/images/project3.png" alt="YC directory" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Katie Hardy Portfolio</h2>
             </div>
           </div>
         </div>
